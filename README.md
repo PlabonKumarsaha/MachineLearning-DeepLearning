@@ -8,7 +8,9 @@
 
 
 ## Project :
-* Spam mail detection
+
+* [Spam mail detection](https://github.com/PlabonKumarsaha/MachineLearning-DeepLearning/tree/main/ML/05.Spam%20mail%20detector%20TF-IDF%20Vectorizer)
+
 - pre processing : Count Vectorizer
 - ML model : MultinomialNB(naive_bayes)
 - 99 % accurate
