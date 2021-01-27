@@ -11,7 +11,7 @@
 - start new Notebook
 *Import file in colab*
 ```
- from google.colab import files
+from google.colab import files
 files.upload()
 ```
 
