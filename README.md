@@ -21,3 +21,11 @@ files.upload()
 1. pre processing : Count Vectorizer
 2. ML model : MultinomialNB(naive_bayes)
 3. 99 % accurate
+
+* Profit Prediction
+
+1. Null value checking and resolving
+2. one hot encoding for data pre processing
+3. concating onehot encoding values to the table
+4. Testing on single input and multiple  test set
+5. R-Squared Value for model accuracy testing
