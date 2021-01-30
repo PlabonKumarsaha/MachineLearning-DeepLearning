@@ -34,5 +34,5 @@ files.upload()
 
 [dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/?C=N;O=D)
 
-1.Supervised learning 
-2. No Null values in the dataset
+1.Supervised learning
+2.No Null values in the dataset
