@@ -37,3 +37,5 @@ files.upload()
 
 1.Supervised learning <br>
 2.No Null values in the dataset
+3.Linear Regression
+4.Random forest  
