@@ -22,6 +22,9 @@ files.upload()
 1. pre processing : Count Vectorizer
 2. ML model : MultinomialNB(naive_bayes)
 3. 99 % accurate
+4.show performance matrix
+5. show confusion matrix
+6.show classification report
 
 * Profit Prediction
 
