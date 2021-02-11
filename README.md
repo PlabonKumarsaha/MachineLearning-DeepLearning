@@ -42,3 +42,7 @@ files.upload()
 2.No Null values in the dataset
 3.Linear Regression
 4.Random forest  
+
+
+
+Location to run scripts : C:\Users\PKS\AppData\Local\Programs\Python\Python37\Scripts
