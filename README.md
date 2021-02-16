@@ -47,6 +47,8 @@ files.upload()
 **Predicting Heart Disease using Random Forest**
 
 [dataset](https://www.kaggle.com/sulianova/cardiovascular-disease-dataset)
+70k dataset 
+1. Supervised learning to predict if a patient has Heart Disease
 
 
 
