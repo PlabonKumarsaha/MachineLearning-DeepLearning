@@ -54,6 +54,7 @@ files.upload()
 4.  use seaborn to plot the data
 5.  Do RandomForest and DecisionTreeClassifier
 6.  Feature importance using ExtraTreesClassifier
+latest jupy file is yet to be uploaded
 
 
 
