@@ -49,6 +49,10 @@ files.upload()
 [dataset](https://www.kaggle.com/sulianova/cardiovascular-disease-dataset)
 70k dataset 
 1. Supervised learning to predict if a patient has Heart Disease
+2. find coefficincy 
+3. f_classif for learning and removing the least related features
+4.  use seaborn to plot the data
+5.  Do RandomForest and DecisionTreeClassifier
 
 
 
