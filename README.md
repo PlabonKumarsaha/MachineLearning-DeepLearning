@@ -53,6 +53,7 @@ files.upload()
 3. f_classif for learning and removing the least related features
 4.  use seaborn to plot the data
 5.  Do RandomForest and DecisionTreeClassifier
+6.  Feature importance using ExtraTreesClassifier
 
 
 
