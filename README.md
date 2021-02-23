@@ -57,5 +57,10 @@ files.upload()
 latest jupy file is yet to be uploaded
 
 
+Heart Disease Prediction using RandomForestClassifier
+1. Univariate feature selection() - SelectKBest,f_classif
+2. Feature importace - 
+
+
 
 Location to run scripts : C:\Users\PKS\AppData\Local\Programs\Python\Python37\Scripts
