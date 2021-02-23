@@ -56,7 +56,9 @@ files.upload()
 6.  Feature importance using ExtraTreesClassifier
 7.  Univariate feature selection() -SelectKBest
 8.  Feature importace - 
-latest jupy file is yet to be uploaded
+
+ML
+12. KNN - Data preProc - LabelEncoder , Model - KNN
 
 
 
