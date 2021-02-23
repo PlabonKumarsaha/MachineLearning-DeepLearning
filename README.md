@@ -54,12 +54,11 @@ files.upload()
 4.  use seaborn to plot the data
 5.  Do RandomForest and DecisionTreeClassifier
 6.  Feature importance using ExtraTreesClassifier
+7.  Univariate feature selection() -SelectKBest
+8.  Feature importace - 
 latest jupy file is yet to be uploaded
 
 
-Heart Disease Prediction using RandomForestClassifier
-1. Univariate feature selection() - SelectKBest,f_classif
-2. Feature importace - 
 
 
 
