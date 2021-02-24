@@ -70,7 +70,7 @@ Must checked link
 2. Recommendation system
 3. Text classifier
 4. Multi class predictor
-5. Sklearn's naive bayes variants - GaussianNB, BernoulliNB, MultinomialNB 
+5. Sklearn's naive bayes variants - GaussianNB, BernoulliNB, MultinomialNB(skip this if there is any negative value in any row) 
 
 
 
