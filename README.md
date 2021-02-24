@@ -65,6 +65,13 @@ Must checked link
 - https://www.youtube.com/watch?v=6WDFfaYtN6s&list=PLZoTAELRMXVPwYGE2PXD3x0bfKnR0cJjN&ab_channel=KrishNaik
 
 
+**Use of Naive Bayes**
+1. Real time prediction
+2. Recommendation system
+3. Text classifier
+4. Multi class predictor
+
+
 
 
 
