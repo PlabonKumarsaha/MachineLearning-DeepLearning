@@ -60,6 +60,9 @@ files.upload()
 ML
 12. KNN - Data preProc - LabelEncoder , Model - KNN
 
+Must checked link
+- https://www.kaggle.com/lavanyashukla01/how-i-made-top-0-3-on-a-kaggle-competition
+
 
 
 
