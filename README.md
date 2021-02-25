@@ -74,6 +74,7 @@ Must checked link
 
 **K means clustering**
 1. Useage : for similar product showing by ecommerce , market basket , biology , finidng disticnt types of classes from this
+2. unsupervised learning so the data is Unlabled.
 
 
 
