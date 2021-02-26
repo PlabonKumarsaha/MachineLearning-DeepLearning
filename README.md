@@ -72,9 +72,10 @@ Must checked link
 4. Multi class predictor
 5. Sklearn's naive bayes variants - GaussianNB, BernoulliNB, MultinomialNB(skip this if there is any negative value in any row) 
 
-**K means clustering**
+**13.K means clustering**
 1. Useage : for similar product showing by ecommerce , market basket , biology , finidng disticnt types of classes from this
 2. unsupervised learning so the data is Unlabled.
+3. Elbow mehod to learn the optimized number of cluster
 
 
 
