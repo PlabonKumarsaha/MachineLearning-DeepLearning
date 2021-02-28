@@ -64,6 +64,7 @@ Must checked link
 - feature enginnering https://www.youtube.com/watch?v=6WDFfaYtN6s&list=PLZoTAELRMXVPwYGE2PXD3x0bfKnR0cJjN&ab_channel=KrishNaik-  
 - MLprojects :https://www.youtube.com/channel/UCX802rmp2Sg2ddyLU7Qo1bQ/videos
 - feature selection : https://www.youtube.com/watch?v=YaKMeAlHgqQ&ab_channel=DataSchool
+- web scrapping : https://www.youtube.com/watch?v=r_xb0vF1uMc&list=PL5-da3qGB5IDbOi0g5WFh1YPDNzXw4LNL&ab_channel=DataSchool
 
 
 **Use of Naive Bayes**
