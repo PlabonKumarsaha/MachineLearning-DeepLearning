@@ -6,7 +6,6 @@
 3. pip insatll jupyter 
 4. After installation write jupyter notebook
 
-
 **Use Google Colab**
 - go to colab
 - start new Notebook
