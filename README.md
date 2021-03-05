@@ -56,6 +56,21 @@ files.upload()
 7.  Univariate feature selection() -SelectKBest
 8.  Feature importace - 
 
+**Customer churn prediction**
+
+[dataset](https://www.kaggle.com/studymart/customer-churn-prediction)
+
+1.Supervised learning <br>
+2.No Null values in the dataset
+3.vizualize data using seaborn countplots
+4.LabelEncoder to remove multiple text realted data columns
+5. scale the data using StandardScaler(reduces calculation later for training)
+6.Logistic Regression
+7.accuracy_score
+8.confusion_matrix generation
+9.classification_report
+10.Perfromance Metrices
+
 ML
 12. KNN - Data preProc - LabelEncoder , Model - KNN
 
