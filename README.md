@@ -78,6 +78,7 @@ ML
 
 Must checked link
 - vaex (importing ds): https://github.com/vaexio/vaex
+- Vaex api doc : https://vaex.readthedocs.io/en/latest/api.html
 - https://www.kaggle.com/lavanyashukla01/how-i-made-top-0-3-on-a-kaggle-competition
 - feature enginnering https://www.youtube.com/watch?v=6WDFfaYtN6s&list=PLZoTAELRMXVPwYGE2PXD3x0bfKnR0cJjN&ab_channel=KrishNaik-  
 - MLprojects :https://www.youtube.com/channel/UCX802rmp2Sg2ddyLU7Qo1bQ/videos
