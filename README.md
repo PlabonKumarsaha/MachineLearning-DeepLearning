@@ -77,7 +77,7 @@ ML
 12. KNN - Data preProc - LabelEncoder , Model - KNN
 
 Must checked link
-- vaex (importing ds): https://github.com/vaexio/vaex
+- vaex : https://pypi.org/project/vaex/
 - Vaex api doc : https://vaex.readthedocs.io/en/latest/api.html
 - https://www.kaggle.com/lavanyashukla01/how-i-made-top-0-3-on-a-kaggle-competition
 - feature enginnering https://www.youtube.com/watch?v=6WDFfaYtN6s&list=PLZoTAELRMXVPwYGE2PXD3x0bfKnR0cJjN&ab_channel=KrishNaik-  
