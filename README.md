@@ -26,6 +26,7 @@ files.upload()
 4.show performance matrix
 5. show confusion matrix
 6.show classification report
+7.K fold cross validation for getting accuracy scores
 
 * Profit Prediction
 
