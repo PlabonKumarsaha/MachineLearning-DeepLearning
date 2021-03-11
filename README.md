@@ -16,7 +16,6 @@ from google.colab import files
 files.upload()
 
 ```
-
 ## Project :
 
 * [Spam mail detection](https://github.com/PlabonKumarsaha/MachineLearning-DeepLearning/tree/main/ML/05.Spam%20mail%20detector%20TF-IDF%20Vectorizer)
