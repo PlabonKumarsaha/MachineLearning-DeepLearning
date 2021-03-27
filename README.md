@@ -97,6 +97,13 @@ Must checked link
 2. unsupervised learning so the data is Unlabled.
 3. Elbow mehod to learn the optimized number of cluster
 
+**Deep Learning**
+1.Hand written digit classifier
+-use mnist
+-keras
+-Normalization
+- flattening of an image array
+
 
 
 
