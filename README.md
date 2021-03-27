@@ -99,10 +99,15 @@ Must checked link
 
 **Deep Learning**
 1.Hand written digit classifier
--use mnist
--keras
--Normalization
+- use mnist
+- keras
+- Normalization
 - flattening of an image array
+- show image of a matrix using matshow
+- Training a multi layer model
+- optimize the model using 'adam'
+- evaluating the model
+- generating a confusion matrix
 
 
 
