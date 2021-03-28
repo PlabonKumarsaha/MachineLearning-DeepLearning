@@ -111,6 +111,7 @@ Must checked link
 2. Customer churn prediction Impact Learning
 This was done using ML algorithms but a new proposed method named Impact Leanring was used to do it again
 Doc - https://pypi.org/project/ImpactLearning/
+3. Data augmentation : https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
 
 
 
