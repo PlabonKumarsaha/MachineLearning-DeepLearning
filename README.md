@@ -108,6 +108,9 @@ Must checked link
 - optimize the model using 'adam'
 - evaluating the model
 - generating a confusion matrix
+2. Customer churn prediction Impact Learning
+This was done using ML algorithms but a new proposed method named Impact Leanring was used to do it again
+Doc - https://pypi.org/project/ImpactLearning/
 
 
 
