@@ -116,5 +116,4 @@ Doc - https://pypi.org/project/ImpactLearning/
 
 
 
-
 Location to run scripts : C:\Users\PKS\AppData\Local\Programs\Python\Python37\Scripts
