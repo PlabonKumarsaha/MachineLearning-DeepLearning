@@ -114,6 +114,7 @@ Doc - https://pypi.org/project/ImpactLearning/
 3. Data augmentation : https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
 
 **Save a model**
+-> Using pickle
 1. import pickle
 2. save the model
 ```
@@ -125,6 +126,11 @@ with open('svm_model','wb') as f:
 with open('svm_model','rb') as f:
      loadedModel = pickle.load(f)
 ```
+-> using joblib
+1. import joblib
+2. joblib.dump(model,'model_joblib') # save the model
+3. svm = joblib.load('model_joblib') # load the model
+
 
 
 Location to run scripts : C:\Users\PKS\AppData\Local\Programs\Python\Python37\Scripts
