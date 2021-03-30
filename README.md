@@ -113,7 +113,18 @@ This was done using ML algorithms but a new proposed method named Impact Leanrin
 Doc - https://pypi.org/project/ImpactLearning/
 3. Data augmentation : https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
 
-
+**Save a model**
+1. import pickle
+2. save the model
+```
+with open('model_pickle','wb') as f:
+    pickle.dump(model,f)
+```
+3.open the model from file
+```
+with open('model_pickle','rb') as f:
+     loadedModel = pickle.load(f)
+```
 
 
 Location to run scripts : C:\Users\PKS\AppData\Local\Programs\Python\Python37\Scripts
