@@ -117,12 +117,12 @@ Doc - https://pypi.org/project/ImpactLearning/
 1. import pickle
 2. save the model
 ```
-with open('model_pickle','wb') as f:
+with open('svm_model','wb') as f:
     pickle.dump(model,f)
 ```
 3.open the model from file
 ```
-with open('model_pickle','rb') as f:
+with open('svm_model','rb') as f:
      loadedModel = pickle.load(f)
 ```
 
