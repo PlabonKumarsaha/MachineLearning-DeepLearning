@@ -132,5 +132,4 @@ with open('svm_model','rb') as f:
 3. svm = joblib.load('model_joblib') # load the model
 
 
-
 Location to run scripts : C:\Users\PKS\AppData\Local\Programs\Python\Python37\Scripts
