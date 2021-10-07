@@ -2,15 +2,17 @@ import string
 
 
 # reading text file
+from collections import Counter
+
 text = open("read.txt", encoding="utf-8").read()
 
 # converting to lowercase
 lower_case = text.lower()
-print('low'+lower_case)
+# print('low'+lower_case)
 
 # Removing punctuations from the text
 cleaned_text = lower_case.translate(str.maketrans('', '', string.punctuation))
-print('cleaned up'+ cleaned_text)
+# print('cleaned up'+ cleaned_text)
 
 
 # splitting text into words
@@ -34,13 +36,24 @@ for word in tokenized_words:
     if word not in stop_words:
         final_words.append(word)
 
-print('Tokenization \n')
-print(final_words)
+# print('Tokenization \n')
+# print(final_words)
 
 # Sentiment algo
 # 1. check if the tokenizaed words matches any word with emotions text file
 
+emotion_list = []
 with open('emotions.txt','r')as file:
     for line in file:
-        print(line)
+        clear_line = line.replace("\n", '').replace(",", '').replace("'", '').strip()
+        print(clear_line)
+        word, emotion = clear_line.split(':')
+
+        if word in final_words:
+            emotion_list.append(word)
+
+print(emotion_list)
+w = Counter(emotion_list)
+print(w)
+
 
