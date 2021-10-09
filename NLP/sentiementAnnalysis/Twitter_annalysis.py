@@ -1,27 +1,39 @@
 import string
+from collections import Counter
+
+import matplotlib.pyplot as plt
+
+
+def get_tweets():
+    import GetOldTweets3 as got
+    tweetCriteria = got.manager.TweetCriteria().setQuerySearch('CoronaOutbreak') \
+        .setSince("2020-01-01") \
+        .setUntil("2020-04-01") \
+        .setMaxTweets(1000)
+    # Creation of list that contains all tweets
+    tweets = got.manager.TweetManager.getTweets(tweetCriteria)
+    # Creating list of chosen tweet data
+    text_tweets = [[tweet.text] for tweet in tweets]
+    return text_tweets
 
 
 # reading text file
-from collections import Counter
+text = ""
+text_tweets = get_tweets()
+length = len(text_tweets)
 
-import matplotlib as plt
-import matplotlib.pyplot as plt
-
-text = open("read.txt", encoding="utf-8").read()
+for i in range(0, length):
+    text = text_tweets[i][0] + " " + text
 
 # converting to lowercase
 lower_case = text.lower()
-# print('low'+lower_case)
 
-# Removing punctuations from the text
+# Removing punctuations
 cleaned_text = lower_case.translate(str.maketrans('', '', string.punctuation))
-# print('cleaned up'+ cleaned_text)
-
 
 # splitting text into words
 tokenized_words = cleaned_text.split()
 
-# Stop words are words irrelevant to detecting sentiment
 stop_words = ["i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "your", "yours", "yourself",
               "yourselves", "he", "him", "his", "himself", "she", "her", "hers", "herself", "it", "its", "itself",
               "they", "them", "their", "theirs", "themselves", "what", "which", "who", "whom", "this", "that", "these",
@@ -34,37 +46,22 @@ stop_words = ["i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you"
               "too", "very", "s", "t", "can", "will", "just", "don", "should", "now"]
 
 # Removing stop words from the tokenized words list
-final_words = []
-for word in tokenized_words:
-    if word not in stop_words:
-        final_words.append(word)
+final_words = [word for word in tokenized_words if word not in stop_words]
 
-# print('Tokenization \n')
-# print(final_words)
-
-# Sentiment algo
-# 1. check if the tokenizaed words matches any word with emotions text file
-
+# Get emotions text
 emotion_list = []
-with open('emotions.txt','r')as file:
+with open('emotions.txt', 'r') as file:
     for line in file:
-        clear_line = line.replace("\n", '').replace(",", '').replace("'", '').strip()
-        print(clear_line)
+        clear_line = line.replace('\n', '').replace(',', '').replace("'", '').strip()
         word, emotion = clear_line.split(':')
-
         if word in final_words:
-            emotion_list.append(word)
+            emotion_list.append(emotion)
 
-print(emotion_list)
-
-# count the emotion count .How many emotions are present
 w = Counter(emotion_list)
 print(w)
 
-# Ploting on graphs
 fig, ax1 = plt.subplots()
 ax1.bar(w.keys(), w.values())
 fig.autofmt_xdate()
 plt.savefig('graph.png')
 plt.show()
-
