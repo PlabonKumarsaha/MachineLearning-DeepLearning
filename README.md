@@ -132,3 +132,9 @@ with open('svm_model','rb') as f:
 
 
 Location to run scripts : C:\Users\PKS\AppData\Local\Programs\Python\Python37\Scripts
+
+### To learn
+* Unsupervised learning using sklearn
+* pipelining
+* import pickle
+* call from frontend
