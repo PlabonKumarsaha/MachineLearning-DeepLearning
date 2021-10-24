@@ -135,6 +135,6 @@ Location to run scripts : C:\Users\PKS\AppData\Local\Programs\Python\Python37\Sc
 
 ### To learn
 * Unsupervised learning using sklearn
-* pipelining
+* sklearn pipelining
 * import pickle
 * call from frontend
