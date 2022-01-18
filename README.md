@@ -132,6 +132,9 @@ with open('svm_model','rb') as f:
 
 
 Location to run scripts : C:\Users\PKS\AppData\Local\Programs\Python\Python37\Scripts
+**Handling imbalance dataset**
+* Over Sampling : when dataset is not huge
+* Under Sampling : when dataset is huge. It makes the outcome variable more balanced
 
 ### To learn
 * Unsupervised learning using sklearn
